@@ -1,0 +1,21 @@
+{
+  "name": "palpite-box",
+  "version": "1.0.0",
+  "description": "First project to portfolio in the Fullstack Master course on devPleno.com.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "start": "next start",
+    "build": "next build"
+  },
+  "author": "David Júnior (davidpsjunior@gmail.com)",
+  "license": "MIT",
+  "dependencies": {
+    "autoprefixer": "9.8.6",
+    "next": "^11.0.1",
+    "postcss-import": "^14.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.7"
+  }
+}
