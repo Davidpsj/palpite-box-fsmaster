@@ -7,12 +7,14 @@ const Header = () => {
     <React.Fragment>
       <div className={styles.wrapper}>
         <div className='container mx-auto'>
-          <img
-            className='mx-auto'
-            style={{ width: '64px' }}
-            src='/logo_palpitebox.png'
-            alt='PalpiteBox'
-          />
+          <Link href='/'>
+            <img
+              className='mx-auto cursor-pointer'
+              style={{ width: '128px' }}
+              src='/logo_palpitebox.png'
+              alt='PalpiteBox'
+            />
+          </Link>
         </div>
       </div>
       <div className='bg-gray-300 p-4 shadow-md text-center'>
