@@ -13,9 +13,12 @@ const Pesquisa = () => {
         Por isso, estamos sempre abertos a ouvir a sua opnião.
       </p>
       <div className='w-1/5 mx-auto'>
-        <label className='font-bold'>Seu nome:</label>
+        <label className='font-bold' for='name'>
+          Seu nome:
+        </label>
         <input
           type='text'
+          id='name'
           className='p-4 block shadow bg-blue-100 my-2 rounded'
         ></input>
       </div>
