@@ -2,7 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 
 const Pesquisa = () => {
-	return (
+	const save = () => {};
+
+  return (
     <div>
       <h1 className='text-center font-bold my-4 text-2xl'>
         Críticas e sugestões
@@ -21,6 +23,12 @@ const Pesquisa = () => {
           id='name'
           className='p-4 block shadow bg-blue-100 my-2 rounded'
         ></input>
+        <button
+          className='bg-blue-400 px-12 py-4 font-bold rounded-lg shadow-lg hover:shadow'
+          onClick={save}
+        >
+          Salvar
+        </button>
       </div>
     </div>
   );
