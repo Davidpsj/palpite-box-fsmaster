@@ -2,7 +2,21 @@ import React from 'react'
 import Link from 'next/link'
 
 const Pesquisa = () => {
-	const save = () => {};
+	const save = async () => {
+    const form = {
+      Nome: 'aaaa',
+      Email: 'bbbb',
+      Whatsapp: 'cccc',
+    };
+    try {
+      const response = await fetch('/api/save', {
+        method: 'POST',
+        body: JSON.stringify(form),
+      });
+      const data = await response.json();
+      console.log(data);
+    } catch (err) {}
+  };
 
   return (
     <div>
